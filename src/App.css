@@ -6,6 +6,45 @@
   height: 40vmin;
   pointer-events: none;
 }
+/*  */
+
+.btn-wrapper button {
+  background-color: #61dafb;
+  border: 0px;
+  padding: 10px;
+  border-radius: 10px;
+  color: whitesmoke;
+  box-shadow: black;
+}
+
+.img-wrapper img {
+  width: 180px;
+  margin-top: 50px;
+}
+
+.cart-wrapper {
+  height: 400px;
+  width: 250px;
+  border: 2px solid thistle;
+  margin-left: 5%;
+}
+
+.item {
+  /* float: left; */
+  /* display: inline-block ; */
+  /* width: 200px; */
+  padding: 10px;
+  /* height: 100px; */
+}
+
+.add-to-cart img {
+  width: 50px;
+  position: absolute;
+  right: 1%;
+  top: 1%;
+}
+
+/*  */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
