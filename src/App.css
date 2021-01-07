@@ -17,17 +17,7 @@
   box-shadow: black;
 }
 
-.img-wrapper img {
-  width: 180px;
-  margin-top: 50px;
-}
 
-.cart-wrapper {
-  height: 400px;
-  width: 250px;
-  border: 2px solid thistle;
-  margin-left: 5%;
-}
 
 .item {
   /* float: left; */
@@ -41,10 +31,129 @@
   width: 50px;
   position: absolute;
   right: 1%;
-  top: 1%;
+  top: 2%;
+}
+.cart-count{
+  position: absolute;
+  right: 23px;
+  top: 15px;
+  z-index: 1;
+  /* background-color: #61dafb; */
+  padding: 1px;
+  width: 25px;
+  height: 20px;
+  border-radius: 50%;
+  color: black;
+}
+button.remove-cart-btn {
+  background-color: red;
+  margin-left: 8px;
 }
 
-/*  */
+.img-wrapper img {
+  width: 180px;
+  height: 220px;
+  margin-top: 50px;
+}
+.image-right img{
+  width: 180px;
+  padding: 10px;
+  /* position: absolute; */
+  margin-top: 50px;
+}
+.image-right4 img {
+  width: 180px;
+  height: 220px;
+  padding: 12px;
+  margin-top: 50px;
+}
+.image-right2 {
+  width: 180px;
+  height: 220px;
+  padding: 13px;
+  margin-top: 50px;
+}
+
+.image-right6 {
+  width: 180px;
+  height: 232px;
+  padding: 30px;
+  margin-top: 5px;
+}
+
+
+.cart-wrapper {
+  height: 400px;
+  width: 250px;
+  border: 2px solid thistle;
+  margin-left: 10%;
+  margin-top: 80px;
+}
+.new-cart-wrapper {
+  height: 400px;
+  width: 250px;
+  position: absolute;
+  border: 2px solid thistle;
+  margin-left: 32%;
+  margin-top: -404px;
+
+}
+.new1-cart-wrapper {
+  height: 400px;
+  width: 250px;
+  position: absolute;
+  border: 2px solid thistle;
+  margin-left: 10%;
+  margin-top: 20px;
+}
+.new2-cart-wrapper {
+  height: 400px;
+  width: 250px;
+  position: absolute;
+  border: 2px solid thistle;
+  margin-left: 54%;
+  margin-top: -404px;
+}
+/* 
+.image-right3 img {
+  width: 230px;
+  height: 220px;
+  margin-top: 75px;
+} */
+
+.new3-cart-wrapper{
+  height: 400px;
+  width: 250px;
+  position: absolute;
+  border: 2px solid thistle;
+  margin-left: 32%;
+  margin-top: 20px;
+}
+
+.new4-cart-wrapper {
+  height: 400px;
+  width: 250px;
+  position: absolute;
+  border: 2px solid thistle;
+  margin-left: 54%;
+  margin-top: 20px;
+}
+.new5-cart-wrapper {
+  height: 400px;
+  width: 250px;
+  position: absolute;
+  border: 2px solid thistle;
+  margin-left: 10%;
+  margin-top: 450px;
+}
+.new6-cart-wrapper {
+  height: 400px;
+  width: 250px;
+  position: absolute;
+  border: 2px solid thistle;
+  margin-left: 32%;
+  margin-top: 450px;
+}/*  */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
